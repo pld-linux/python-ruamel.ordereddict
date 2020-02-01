@@ -5,7 +5,7 @@
 Summary:	A version of dict that keeps keys in insertion resp. sorted order
 Name:		python-%{module}
 Version:	0.4.14
-Release:	1
+Release:	2
 License:	MIT
 Group:		Libraries/Python
 #Source0Download: https://pypi.org/simple/ruamel.ordereddict/
@@ -17,7 +17,6 @@ BuildRequires:	rpmbuild(macros) >= 1.714
 BuildRequires:	python-modules
 BuildRequires:	python-setuptools
 Requires:	python-modules
-BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
