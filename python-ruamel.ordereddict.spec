@@ -33,6 +33,8 @@ BuildRequires:	python3-pytest
 BuildRequires:	rpm-pythonprov
 BuildRequires:	rpmbuild(macros) >= 1.714
 Requires:	python-modules >= 1:2.6
+# for dir
+Requires:	python-ruamel.base
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
@@ -46,6 +48,8 @@ Summary:	A version of dict that keeps keys in insertion resp. sorted order
 Summary(pl.UTF-8):	Wersja słownika trzymająca klucze w kolejności wstawiania
 Group:		Libraries/Python
 Requires:	python3-modules >= 1:3.2
+# for dir
+Requires:	python3-ruamel.base
 
 %description -n python3-ruamel.ordereddict
 A version of dict that keeps keys in insertion resp. sorted order.
