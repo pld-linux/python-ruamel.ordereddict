@@ -9,7 +9,7 @@ Summary:	A version of dict that keeps keys in insertion resp. sorted order
 Summary(pl.UTF-8):	Wersja słownika trzymająca klucze w kolejności wstawiania
 Name:		python-%{module}
 Version:	0.4.14
-Release:	3
+Release:	4
 License:	MIT
 Group:		Libraries/Python
 #Source0Download: https://pypi.org/simple/ruamel.ordereddict/
