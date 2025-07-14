@@ -8,13 +8,13 @@
 Summary:	A version of dict that keeps keys in insertion resp. sorted order
 Summary(pl.UTF-8):	Wersja słownika trzymająca klucze w kolejności wstawiania
 Name:		python-%{module}
-Version:	0.4.14
-Release:	5
+Version:	0.4.15
+Release:	1
 License:	MIT
 Group:		Libraries/Python
 #Source0Download: https://pypi.org/simple/ruamel.ordereddict/
 Source0:	https://files.pythonhosted.org/packages/source/r/ruamel.ordereddict/%{module}-%{version}.tar.gz
-# Source0-md5:	e0723a39e81fdf5d986d892dc5a94bb8
+# Source0-md5:	9c4adf9c3f5bfdaeac2fdf71f806341e
 URL:		https://pypi.org/project/ruamel.ordereddict/
 %if %{with python2}
 BuildRequires:	python-modules >= 1:2.6
